@@ -8,13 +8,18 @@ function init(h,w) {
 
 // arcs
 radar.add(pv.Dot)
-       .data(radar_arcs)
-       .left(w/2)
-       .bottom(h/2)
-       .radius(function(d){return d.r;})
-       .strokeStyle("#ccc")
-       .anchor("top")
-       .add(pv.Label).text(function(d) { return d.name;});
+        .data(radar_arcs)
+        .left(w/2)
+        .bottom(h/2)
+        .radius(function(d){return d.r;})
+        .strokeStyle("#ccc")
+        .anchor("top")
+        .add(pv.Label)
+        .textBaseline("top")
+        .textMargin(40)
+        .text(function(d) { return d.name; })
+        .textStyle("#aaa")
+        .font("bold 28px sans-serif");
 
 //quadrant lines -- vertical
 radar.add(pv.Line)
