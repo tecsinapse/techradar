@@ -18,7 +18,7 @@ var radar_arcs = [
 //   t = moved
 //   c = stayed put
 //
-// blipSize: 
+// blipSize:
 //  intValue; This is optional, if you omit this property, then your blip will be size 70.
 //            This give you the ability to be able to indicate information by blip size too
 //
@@ -48,6 +48,38 @@ var h = 1000;
 var w = 1200;
 
 var radar_data = [
+    {
+        quadrant: "Linguagens & Frameworks",
+        color: "#B70062",
+        left: (w - 200 + 30),
+        top: (h / 2 + 18),
+        items: [
+            {name: "Java 8", pc: {r: 15, t: 320 }, movement: "c"},
+
+            {name: 'CDI', pc: {r: 40, t: 290}, movement: 'c'},
+            {name: 'Javascript', pc: {r: 50, t: 298}, movement: 'c', domain: 'template'},
+            {name: 'Spring', pc: {r: 60, t: 310}, movement: 'c'},
+            {name: 'JPA', pc: {r: 60, t: 278}, movement: 'c'},
+            {name: 'Hibernate', pc: {r: 80, t: 320}, movement: 'c'},
+
+            {name: 'RxJava', pc: {r: 150, t: 298}, movement: 'c', domain: 'template'},
+            {name: "Groovy ^", pc: {r: 190, t: 280}, movement: "c"},
+
+            {name: "Serverside Javascript", pc: {r: 220, t: 275}, movement: "c"},
+            {name: 'RxJs', pc: {r: 250, t: 338}, movement: 'c', domain: 'template'},
+            {name: 'Web Components', pc: {r: 260, t: 330}, movement: 'c'},
+            {name: "Coffeescript", pc: {r: 270, t: 282}, movement: "c"},
+            {name: "Swift", pc: {r: 280, t: 300}, movement: "c"},
+            {name: "Clojure", pc: {r: 280, t: 310}, movement: "c"},
+            {name: "Functional Reactive Programming", pc: {r: 285, t: 330}, movement: "c"},
+            {name: "Scala - the good parts ^", pc: {r: 290, t: 320}, movement: "c"},
+
+            {name: 'Spring ^', pc: {r: 360, t: 330}, movement: 'c'},
+            {name: "ASP Classic", pc: {r: 375, t: 330}, movement: "c"},
+            {name: "Web Objects", pc: {r: 390, t: 290}, movement: "c"},
+            {name: "Java 6 and earlier", pc: {r: 390, t: 350}, movement: "c"}
+        ]
+    },
     {
         quadrant: "Técnicas",
         left: 45,
@@ -163,36 +195,6 @@ var radar_data = [
             {name: "Magnolia CMS", pc: {r: 390, t: 235}, movement: "c"},
             {name: "Java EE - the Bad Parts", pc: {r: 390, t: 245}, movement: "c"},
             {name: "MS SqlServer", pc: {r: 390, t: 190}, movement: "c"}
-        ]
-    },
-    {
-        quadrant: "Linguagens & Frameworks",
-        color: "#B70062",
-        left: (w - 200 + 30),
-        top: (h / 2 + 18),
-        items: [
-            {name: 'Mustache/Handlebars template', pc: {r: 50, t: 298}, movement: 'c', domain: 'template'},
-            {name: 'CDI', pc: {r: 60, t: 290}, movement: 'c'},
-            {name: 'Jersey', pc: {r: 60, t: 310}, movement: 'c'},
-            {name: 'Guice', pc: {r: 60, t: 278}, movement: 'c'},
-
-            {name: "Java 8", pc: {r: 130, t: 355}, movement: "c"},
-            {name: 'RxJava', pc: {r: 150, t: 298}, movement: 'c', domain: 'template'},
-            {name: "Groovy ^", pc: {r: 190, t: 280}, movement: "c"},
-
-            {name: "Serverside Javascript", pc: {r: 220, t: 275}, movement: "c"},
-            {name: 'RxJs', pc: {r: 250, t: 338}, movement: 'c', domain: 'template'},
-            {name: 'Web Components', pc: {r: 260, t: 330}, movement: 'c'},
-            {name: "Coffeescript", pc: {r: 270, t: 282}, movement: "c"},
-            {name: "Swift", pc: {r: 280, t: 300}, movement: "c"},
-            {name: "Clojure", pc: {r: 280, t: 310}, movement: "c"},
-            {name: "Functional Reactive Programming", pc: {r: 285, t: 330}, movement: "c"},
-            {name: "Scala - the good parts ^", pc: {r: 290, t: 320}, movement: "c"},
-
-            {name: 'Spring ^', pc: {r: 360, t: 330}, movement: 'c'},
-            {name: "ASP Classic", pc: {r: 375, t: 330}, movement: "c"},
-            {name: "Web Objects", pc: {r: 390, t: 290}, movement: "c"},
-            {name: "Java 6 and earlier", pc: {r: 390, t: 350}, movement: "c"}
         ]
     }
 ];
