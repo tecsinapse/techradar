@@ -103,8 +103,8 @@
       <file leaf-file-name="radarData.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/radars/radarData.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="137" column="49" selection-start-line="137" selection-start-column="49" selection-end-line="137" selection-end-column="49" />
+            <state relative-caret-position="3546">
+              <caret line="197" column="0" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -361,7 +361,7 @@
       <option name="presentableId" value="Default" />
       <updated>1486645590442</updated>
       <workItem from="1486645592832" duration="4022000" />
-      <workItem from="1491838767644" duration="2382000" />
+      <workItem from="1491838767644" duration="2541000" />
     </task>
     <task id="LOCAL-00001" summary="ajustes iniciais e tradução">
       <created>1486647297882</created>
@@ -391,11 +391,18 @@
       <option name="project" value="LOCAL" />
       <updated>1491839249131</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="-categoria ferramentas">
+      <created>1491841157878</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1491841157878</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6404000" />
+    <option name="totallyTimeSpent" value="6563000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-3" width="1920" height="1083" extended-state="6" />
@@ -435,7 +442,8 @@
     <MESSAGE value="jquery como lib local para prover no github pages" />
     <MESSAGE value="estilo das labels nos arcos" />
     <MESSAGE value="-ajuste no tamanho do radar&#10;-ajuste de alguns itens" />
-    <option name="LAST_COMMIT_MESSAGE" value="-ajuste no tamanho do radar&#10;-ajuste de alguns itens" />
+    <MESSAGE value="-categoria ferramentas" />
+    <option name="LAST_COMMIT_MESSAGE" value="-categoria ferramentas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -604,8 +612,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/radars/radarData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="137" column="49" selection-start-line="137" selection-start-column="49" selection-end-line="137" selection-end-column="49" />
+        <state relative-caret-position="3546">
+          <caret line="197" column="0" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
           <folding />
         </state>
       </provider>

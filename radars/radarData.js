@@ -55,7 +55,7 @@ var radar_data = [
         top: (h / 2 + 18),
         items: [
             //Adote
-            {name: "Java 8", pc: {r: 15, t: 320 }, movement: "c"},
+            {name: "Java 8", pc: {r: 15, t: 320}, movement: "c"},
             {name: 'CDI', pc: {r: 40, t: 340}, movement: 'c'},
             {name: 'Javascript', pc: {r: 40, t: 290}, movement: 'c'},
             {name: 'JPA', pc: {r: 55, t: 305}, movement: 'c'},
@@ -146,28 +146,28 @@ var radar_data = [
         top: 18,
         color: "#8FA227",
         items: [
-					//Adote
-					{name: "Code Review", pc: {r: 10, t: 100}, movement: "c"},
-					{name: "Agile", pc: {r: 30, t: 100}, movement: "c"},
-					{name: "PD (Plano de Desenvolvimento)", pc: {r: 40, t: 120}, movement: "c"},
-					{name: "CI (Continuous Integration)", pc: {r: 50, t: 140}, movement: "c"},
-					{name: "Pair Programming", pc: {r: 60, t: 150}, movement: "c"},
-					{name: "Solid", pc: {r: 70, t: 100}, movement: "c"},
-					{name: "Clean Code", pc: {r: 70, t: 120}, movement: "c"},
-					{name: "MOB Programming", pc: {r: 80, t: 150}, movement: "c"},
-					{name: "TDD", pc: {r: 90, t: 160}, movement: "c"},
+            //Adote
+            {name: "Code Review", pc: {r: 10, t: 100}, movement: "c"},
+            {name: "Agile", pc: {r: 30, t: 100}, movement: "c"},
+            {name: "PD (Plano de Desenvolvimento)", pc: {r: 40, t: 120}, movement: "c"},
+            {name: "CI (Continuous Integration)", pc: {r: 50, t: 140}, movement: "c"},
+            {name: "Pair Programming", pc: {r: 60, t: 150}, movement: "c"},
+            {name: "Solid", pc: {r: 70, t: 100}, movement: "c"},
+            {name: "Clean Code", pc: {r: 70, t: 120}, movement: "c"},
+            {name: "MOB Programming", pc: {r: 80, t: 150}, movement: "c"},
+            {name: "TDD", pc: {r: 90, t: 160}, movement: "c"},
 
-					//Experimente
-					{name: "Scrum", pc: {r: 110, t: 110}, movement: "t"},
-					{name: "DDD", pc: {r: 120, t: 100}, movement: "c"},
+            //Experimente
+            {name: "Scrum", pc: {r: 110, t: 110}, movement: "t"},
+            {name: "DDD", pc: {r: 120, t: 100}, movement: "c"},
 
-					{name: "Single Page App", pc: {r: 150, t: 95}, movement: "c", "url": "http://www.google.com"},
+            {name: "Single Page App", pc: {r: 150, t: 150}, movement: "c", "url": "http://www.google.com"},
 
-					//Avalie
-					{name: "BDD", pc: {r: 225, t: 120}, movement: "c"},
+            //Avalie
+            {name: "BDD", pc: {r: 225, t: 120}, movement: "c"},
 
-					//Evite
-					{name: "RUP", pc: {r: 390, t: 120}, movement: "c"}
+            //Evite
+            {name: "RUP", pc: {r: 390, t: 120}, movement: "c"}
         ]
     },
     {
@@ -189,15 +189,15 @@ var radar_data = [
             {name: "Galaxy", pc: {r: 120, t: 220}, movement: "c"},
 
             //Avalie
-            {name: "Wordpress", pc: {r: 230, t: 230}, movement: "t"},
-            {name: 'Docker', pc: {r: 240, t: 268}, movement: 'c'},
+            {name: "Wordpress", pc: {r: 230, t: 200}, movement: "c"},
+            {name: 'Docker', pc: {r: 230, t: 230}, movement: 'c'},
             {name: 'Firebase', pc: {r: 250, t: 257}, movement: 'c'},
-            {name: 'OpenShift', pc: {r: 260, t: 268}, movement: 't'},
-            {name: 'Heroku', pc: {r: 280, t: 250}, movement: "c"},
+            {name: 'OpenShift', pc: {r: 260, t: 220}, movement: 'c'},
+            {name: 'Heroku', pc: {r: 280, t: 190}, movement: "c"},
             {name: 'GitLab', pc: {r: 290, t: 255}, movement: 'c'},
 
             //Evite
-            {name: "Parse", pc: {r: 399, t: 260}, movement: "c"}
+            {name: "Parse", pc: {r: 399, t: 230}, movement: "c"}
         ]
     }
 ];
