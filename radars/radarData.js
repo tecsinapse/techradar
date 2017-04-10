@@ -44,8 +44,8 @@ var radar_arcs = [
 // - Hold: things that are getting attention in the industry, but not ready for use; sometimes they are not mature enough yet, sometimes they are irredeemably flawed
 //      Note: there's no "avoid" ring, but throw things in the hold ring that people shouldn't use.
 
-var h = 1000;
-var w = 1200;
+var h = 1200;
+var w = 1400;
 
 var radar_data = [
     {
@@ -76,7 +76,6 @@ var radar_data = [
             {name: "ECMAScript 6", pc: {r: 130, t: 310}, movement: "c"},
             {name: "Spring MVC", pc: {r: 140, t: 330}, movement: "c"},
             {name: "Spring Data", pc: {r: 140, t: 345}, movement: "c"},
-            {name: "Ionic", pc: {r: 150, t: 355}, movement: "c"},
             {name: "Framework 7", pc: {r: 155, t: 340}, movement: "c"},
             {name: "TypeScript", pc: {r: 150, t: 320}, movement: "c"},
             {name: "Primefaces", pc: {r: 160, t: 280}, movement: "c"},
@@ -85,15 +84,15 @@ var radar_data = [
             {name: "PhoneGap / Cordova", pc: {r: 170, t: 310}, movement: "c"},
             {name: "Arquilian", pc: {r: 180, t: 330}, movement: "c"},
             {name: "Shiro", pc: {r: 190, t: 280}, movement: "c"},
-            {name: "Cucumber", pc: {r: 190, t: 340}, movement: "c"},
-            {name: "Angular 2", pc: {r: 190, t: 300}, movement: "c"},
 
             //Avalie
+            {name: "Angular 2", pc: {r: 210, t: 300}, movement: "c"},
             {name: 'React Native', pc: {r: 220, t: 330}, movement: 'c'},
-            {name: "GO", pc: {r: 230, t: 300}, movement: "c"},
+            {name: "Ionic", pc: {r: 220, t: 355}, movement: "c"},
+            {name: "Cucumber", pc: {r: 230, t: 340}, movement: "c"},
+            {name: "GO", pc: {r: 230, t: 320}, movement: "c"},
             {name: 'BootsFaces', pc: {r: 230, t: 280}, movement: 'c'},
             {name: "Play Framework", pc: {r: 240, t: 350}, movement: "c"},
-            {name: "Apache Kafka", pc: {r: 260, t: 340}, movement: "c"},
             {name: "Phyton", pc: {r: 260, t: 300}, movement: "c"},
             {name: "Semantic UI", pc: {r: 280, t: 320}, movement: "c"},
 
