@@ -55,13 +55,12 @@ var radar_data = [
         top: (h / 2 + 18),
         items: [
             //Adote
-            {name: "Java 8", pc: {r: 15, t: 320 }, movement: "c"},
+            {name: "Java 8", pc: {r: 15, t: 320}, movement: "c"},
             {name: 'CDI', pc: {r: 40, t: 340}, movement: 'c'},
             {name: 'Javascript', pc: {r: 40, t: 290}, movement: 'c'},
             {name: 'JPA', pc: {r: 55, t: 305}, movement: 'c'},
             {name: 'Hibernate', pc: {r: 60, t: 330}, movement: 'c'},
             {name: 'Spring', pc: {r: 65, t: 350}, movement: 'c'},
-            {name: 'Maven', pc: {r: 70, t: 290}, movement: 'c'},
             {name: 'Boostrap', pc: {r: 80, t: 315}, movement: 'c'},
             {name: 'JSF 2', pc: {r: 90, t: 280}, movement: 'c'},
             {name: 'Junit / Mockito', pc: {r: 90, t: 330}, movement: 'c'},
@@ -109,42 +108,36 @@ var radar_data = [
         top: 18,
         color: "#587486",
         items: [
-            {name: 'Appium', pc: {r: 110, t: 70}, movement: 'c', domain: 'mobile, front-end'},
-            {name: 'Kiwi - iOS unit test', pc: {r: 120, t: 14}, movement: 'c', domain: ''},
-            {name: 'Git', pc: {r: 130, t: 73}, movement: 'c'},
-            {name: 'Responsive Android', pc: {r: 150, t: 14}, movement: 'c'},
-            {name: 'bind', pc: {r: 150, t: 69}, movement: 'c'},
-            {name: 'Hystrix', pc: {r: 150, t: 36}, movement: 'c'},
-            {name: 'BEM', pc: {r: 160, t: 60}, movement: 'c', domain: 'front-end'},
-            {name: 'Lemming', pc: {r: 160, t: 82}, movement: 'c'},
-            {name: 'Docker', pc: {r: 170, t: 19}, movement: 't'},
-            {name: 'Consul', pc: {r: 170, t: 29}, movement: 't'},
-            {name: 'Mockito', pc: {r: 170, t: 84}, movement: 'c', domain: 'back-end'},
-            {name: 'Android Studio', pc: {r: 180, t: 66}, movement: 'c', domain: 'mobile, dev'},
-            {name: 'AutoLayout - iOS', pc: {r: 180, t: 55}, movement: 'c', domain: ''},
-            {name: 'Crashlytics', pc: {r: 180, t: 5}, movement: 'c', domain: 'mobile'},
-            {name: 'Swagger Code-Gen', pc: {r: 180, t: 82}, movement: 'c'},
-            {name: 'PowerMock ^', pc: {r: 180, t: 46}, movement: 'c'},
-            {name: 'Json Web Tokens (JWT)', pc: {r: 180, t: 77}, movement: 'c'},
+            //Adote
+            {name: 'Intellij IDEA', pc: {r: 30, t: 20}, movement: 'c'},
+            {name: 'Web Storm', pc: {r: 30, t: 60}, movement: 'c'},
+            {name: 'Jenkins', pc: {r: 55, t: 30}, movement: 'c', domain: ''},
+            {name: 'Git', pc: {r: 55, t: 80}, movement: 'c'},
+            {name: 'Maven', pc: {r: 60, t: 10}, movement: 'c'},
+            {name: 'Target Process', pc: {r: 60, t: 50}, movement: 'c'},
+            {name: 'KeyCloak', pc: {r: 75, t: 20}, movement: 'c'},
+            {name: 'Sonar', pc: {r: 80, t: 70}, movement: 'c'},
+            {name: 'Swagger', pc: {r: 80, t: 40}, movement: 'c'},
+            {name: 'LogEntries', pc: {r: 95, t: 80}, movement: 'c'},
+            {name: 'NewRelic', pc: {r: 95, t: 20}, movement: 'c'},
+            {name: 'MongoDB', pc: {r: 95, t: 50}, movement: 'c'},
 
-            {name: 'GenyMotion', pc: {r: 210, t: 31}, movement: 'c'},
-            {name: 'Trello', pc: {r: 260, t: 75}, movement: 'c'},
-            {name: 'Charles HTTP Proxy', pc: {r: 260, t: 48}, movement: 'c'},
-            {name: 'Ansible', pc: {r: 280, t: 74}, movement: 'c'},
-            {name: 'Hip Chat', pc: {r: 280, t: 78}, movement: 'c'},
-            {name: 'Xamarin', pc: {r: 280, t: 51}, movement: 'c'},
-            {name: 'Android Annotations', pc: {r: 280, t: 25}, movement: 'c'},
+            //Experimente
+            {name: 'Atom', pc: {r: 130, t: 50}, movement: 'c'},
+            {name: 'Gradle', pc: {r: 130, t: 10}, movement: 'c'},
+            {name: 'ESLint', pc: {r: 140, t: 70}, movement: 'c'},
+            {name: 'Android Studio', pc: {r: 150, t: 30}, movement: 'c'},
+            {name: 'Visual Studio Code', pc: {r: 170, t: 80}, movement: 'c'},
 
-            {name: 'Kafka', pc: {r: 12, t: 25}, movement: 'c', domain: 'back-end'},
-            {name: 'ELK', pc: {r: 30, t: 72}, movement: 'c', domain: 'back-end'},
-            {name: 'JDBI ^', pc: {r: 80, t: 56}, movement: 'c'},
-            {name: 'Liquibase', pc: {r: 80, t: 76}, movement: 'c'},
-            {name: 'haproxy', pc: {r: 80, t: 46}, movement: 'c'},
+            //Avalie
+            {name: 'Grafana', pc: {r: 220, t: 60}, movement: 'c'},
+            {name: 'NetBeans', pc: {r: 220, t: 30}, movement: 'c'},
+            {name: 'Meteor Dev Tools', pc: {r: 230, t: 80}, movement: 'c'},
+            {name: 'RoboMongo', pc: {r: 240, t: 10}, movement: 'c'},
 
-            {name: 'mongoDB', pc: {r: 330, t: 5}, movement: 'c'},
-            {name: 'Subversion', pc: {r: 330, t: 18}, movement: 'c'},
-            {name: 'AppManager ^', pc: {r: 360, t: 82}, movement: 'c'},
-            {name: 'Hibernate ^', pc: {r: 380, t: 56}, movement: 'c'}
+            //Hold
+            {name: 'OverOps', pc: {r: 320, t: 70}, movement: 'c'},
+            {name: 'Eclipse', pc: {r: 390, t: 30}, movement: 'c'}
         ]
     },
     {
@@ -153,28 +146,28 @@ var radar_data = [
         top: 18,
         color: "#8FA227",
         items: [
-					//Adote
-					{name: "Code Review", pc: {r: 10, t: 100}, movement: "c"},
-					{name: "Agile", pc: {r: 30, t: 100}, movement: "c"},
-					{name: "PD (Plano de Desenvolvimento)", pc: {r: 40, t: 120}, movement: "c"},
-					{name: "CI (Continuous Integration)", pc: {r: 50, t: 140}, movement: "c"},
-					{name: "Pair Programming", pc: {r: 60, t: 150}, movement: "c"},
-					{name: "Solid", pc: {r: 70, t: 100}, movement: "c"},
-					{name: "Clean Code", pc: {r: 70, t: 120}, movement: "c"},
-					{name: "MOB Programming", pc: {r: 80, t: 150}, movement: "c"},
-					{name: "TDD", pc: {r: 90, t: 160}, movement: "c"},
+            //Adote
+            {name: "Code Review", pc: {r: 10, t: 100}, movement: "c"},
+            {name: "Agile", pc: {r: 30, t: 100}, movement: "c"},
+            {name: "PD (Plano de Desenvolvimento)", pc: {r: 40, t: 120}, movement: "c"},
+            {name: "CI (Continuous Integration)", pc: {r: 50, t: 140}, movement: "c"},
+            {name: "Pair Programming", pc: {r: 60, t: 150}, movement: "c"},
+            {name: "Solid", pc: {r: 70, t: 100}, movement: "c"},
+            {name: "Clean Code", pc: {r: 70, t: 120}, movement: "c"},
+            {name: "MOB Programming", pc: {r: 80, t: 150}, movement: "c"},
+            {name: "TDD", pc: {r: 90, t: 160}, movement: "c"},
 
-					//Experimente
-					{name: "Scrum", pc: {r: 110, t: 110}, movement: "t"},
-					{name: "DDD", pc: {r: 120, t: 100}, movement: "c"},
+            //Experimente
+            {name: "Scrum", pc: {r: 110, t: 110}, movement: "t"},
+            {name: "DDD", pc: {r: 120, t: 100}, movement: "c"},
 
-					{name: "Single Page App", pc: {r: 150, t: 95}, movement: "c", "url": "http://www.google.com"},
+            {name: "Single Page App", pc: {r: 150, t: 150}, movement: "c", "url": "http://www.google.com"},
 
-					//Avalie
-					{name: "BDD", pc: {r: 225, t: 120}, movement: "c"},
+            //Avalie
+            {name: "BDD", pc: {r: 225, t: 120}, movement: "c"},
 
-					//Evite
-					{name: "RUP", pc: {r: 390, t: 120}, movement: "c"}
+            //Evite
+            {name: "RUP", pc: {r: 390, t: 120}, movement: "c"}
         ]
     },
     {
@@ -184,26 +177,27 @@ var radar_data = [
         color: "#DC6F1D",
         items: [
             //Adote
-            {name: "AWS", pc: {r: 5, t: 225}, movement: "c"},
-					  {name: "Bitbucket", pc: {r: 30, t: 190}, movement: "c"},
-					  {name: "Tomcat", pc: {r: 35, t: 230}, movement: "c"},
-					  {name: "Wildfly", pc: {r: 85, t: 225}, movement: "c"},
-					  {name: "Nginx", pc: {r: 50, t: 210}, movement: "c"},
-					  {name: "Apache (Web Server)", pc: {r: 60, t: 245}, movement: "c"},
+            {name: 'Postgres', pc: {r: 30, t: 200}, movement: 'c'},
+            {name: "AWS", pc: {r: 30, t: 235}, movement: "c"},
+            {name: "Bitbucket", pc: {r: 50, t: 190}, movement: "c"},
+            {name: "Tomcat", pc: {r: 60, t: 250}, movement: "c"},
+            {name: "Wildfly", pc: {r: 60, t: 215}, movement: "c"},
+            {name: "Nginx", pc: {r: 80, t: 210}, movement: "c"},
+            {name: "Apache (Web Server)", pc: {r: 80, t: 245}, movement: "c"},
 
-					  //Experimente
-					  {name: "Galaxy", pc: {r: 120, t: 265}, movement: "c"},
+            //Experimente
+            {name: "Galaxy", pc: {r: 120, t: 220}, movement: "c"},
 
-					  //Avalie
-            {name: "Wordpress", pc: {r: 230, t: 230}, movement: "t"},
-            {name: 'Docker', pc: {r: 240, t: 268}, movement: 'c'},
-					  {name: 'Firebase', pc: {r: 250, t: 257}, movement: 'c'},
-            {name: 'OpenShift', pc: {r: 260, t: 268}, movement: 't'},
-            {name: 'Heroku', pc: {r: 280, t: 250}, movement: "c"},
+            //Avalie
+            {name: "Wordpress", pc: {r: 230, t: 200}, movement: "c"},
+            {name: 'Docker', pc: {r: 230, t: 230}, movement: 'c'},
+            {name: 'Firebase', pc: {r: 250, t: 257}, movement: 'c'},
+            {name: 'OpenShift', pc: {r: 260, t: 220}, movement: 'c'},
+            {name: 'Heroku', pc: {r: 280, t: 190}, movement: "c"},
             {name: 'GitLab', pc: {r: 290, t: 255}, movement: 'c'},
 
             //Evite
-					  {name: "Parse", pc: {r: 399, t: 260}, movement: "c"}
+            {name: "Parse", pc: {r: 399, t: 230}, movement: "c"}
         ]
     }
 ];
