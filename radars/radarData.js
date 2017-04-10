@@ -192,7 +192,3 @@ var radar_data = [
         ]
     }
 ];
-// {r: 100, name: "Adote"}, Adopt
-// {r: 200, name: "Experimente"}, Trial
-// {r: 300, name: "Avalie"}, Assess
-// {r: 400, name: "Evite"} Hold
