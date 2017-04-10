@@ -165,7 +165,7 @@ var radar_data = [
 					{name: "TDD", pc: {r: 90, t: 160}, movement: "c"},
 
 					//Experimente
-					{name: "Scrum", pc: {r: 110, t: 110}, movement: "c"},
+					{name: "Scrum", pc: {r: 110, t: 110}, movement: "t"},
 					{name: "DDD", pc: {r: 120, t: 100}, movement: "c"},
 
 					{name: "Single Page App", pc: {r: 150, t: 95}, movement: "c", "url": "http://www.google.com"},
