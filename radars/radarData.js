@@ -173,9 +173,11 @@ var radar_data = [
 					  {name: "Tomcat", pc: {r: 35, t: 225}, movement: "c"},
 					  {name: "Wildfly", pc: {r: 85, t: 225}, movement: "c"},
 					  {name: "Nginx", pc: {r: 60, t: 215}, movement: "c"},
+					  {name: "Apache (Web Server)", pc: {r: 120, t: 215}, movement: "c"},
 					  {name: "Galaxy", pc: {r: 180, t: 265}, movement: "c"},
 
-					  {name: 'Docker', pc: {r: 280, t: 268}, movement: 't'},
+					  {name: 'Docker', pc: {r: 260, t: 268}, movement: 't'},
+					  {name: 'OpenShift', pc: {r: 280, t: 268}, movement: 't'},
 
             {name: 'Heroku', pc: {r: 320, t: 257}, movement: 'c'},
             {name: "Firebase", pc: {r: 320, t: 250}, movement: "c"},
