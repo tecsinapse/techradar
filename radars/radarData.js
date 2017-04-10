@@ -92,7 +92,7 @@ var radar_data = [
             {name: "GO", pc: {r: 230, t: 320}, movement: "c"},
             {name: 'BootsFaces', pc: {r: 230, t: 280}, movement: 'c'},
             {name: "Play Framework", pc: {r: 240, t: 350}, movement: "c"},
-            {name: "Phyton", pc: {r: 260, t: 300}, movement: "c"},
+            {name: "Python", pc: {r: 260, t: 300}, movement: "c"},
             {name: "Semantic UI", pc: {r: 280, t: 320}, movement: "c"},
 
             {name: 'GWT', pc: {r: 330, t: 330}, movement: 'c'},
