@@ -168,18 +168,18 @@ var radar_data = [
         top: (h / 2 + 18),
         color: "#DC6F1D",
         items: [
-            {name: "AWS", pc: {r: 30, t: 225}, movement: "c"},
-            {name: 'Heroku', pc: {r: 50, t: 257}, movement: 'c'},
-            {name: "Galaxy", pc: {r: 90, t: 265}, movement: "c"},
-            {name: "Firebase", pc: {r: 90, t: 250}, movement: "c"},
+            {name: "AWS", pc: {r: 5, t: 225}, movement: "c"},
+					  {name: "Bitbucket", pc: {r: 30, t: 190}, movement: "c"},
+					  {name: "Nginx", pc: {r: 60, t: 215}, movement: "c"},
+					  {name: "Galaxy", pc: {r: 180, t: 265}, movement: "c"},
 
-            {name: "Parse", pc: {r: 130, t: 260}, movement: "t"},
-            {name: "Wordpress", pc: {r: 130, t: 230}, movement: "c"},
-            {name: "Bitbucket", pc: {r: 190, t: 190}, movement: "c"},
+					  {name: 'Docker', pc: {r: 280, t: 268}, movement: 't'},
 
-            {name: "Nginx", pc: {r: 170, t: 215}, movement: "c"},
-            {name: 'GitLab', pc: {r: 220, t: 255}, movement: 'c'},
-            {name: 'Docker', pc: {r: 240, t: 268}, movement: 't'}
+            {name: 'Heroku', pc: {r: 320, t: 257}, movement: 'c'},
+            {name: "Firebase", pc: {r: 320, t: 250}, movement: "c"},
+            {name: "Wordpress", pc: {r: 300, t: 230}, movement: "c"},
+            {name: 'GitLab', pc: {r: 300, t: 255}, movement: 'c'},
+					  {name: "Parse", pc: {r: 400, t: 260}, movement: "t"}
         ]
     }
 ];
