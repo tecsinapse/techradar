@@ -51,8 +51,6 @@ var radar_data = [
     {
         quadrant: "Linguagens & Frameworks",
         color: "#B70062",
-        left: 45,
-        top: 18,
         left: (w - 200 + 30),
         top: (h / 2 + 18),
         items: [
@@ -148,36 +146,28 @@ var radar_data = [
         top: 18,
         color: "#8FA227",
         items: [
-          {name: "Sacrificial Architecture", pc: {r: 80, t: 100}, movement: "c"},
-          {name: "Sensible defaults", pc: {r: 80, t: 150}, movement: "c"},
-          {name: "Dependency Injection", pc: {r: 80, t: 130}, movement: "c"},
-          {name: "Coding architects", pc: {r: 90, t: 170}, movement: "c"},
+					//Adote
+					{name: "Code Review", pc: {r: 10, t: 100}, movement: "c"},
+					{name: "Agile", pc: {r: 30, t: 100}, movement: "c"},
+					{name: "PD (Plano de Desenvolvimento)", pc: {r: 40, t: 120}, movement: "c"},
+					{name: "CI (Continuous Integration)", pc: {r: 50, t: 140}, movement: "c"},
+					{name: "Pair Programming", pc: {r: 60, t: 150}, movement: "c"},
+					{name: "Solid", pc: {r: 70, t: 100}, movement: "c"},
+					{name: "Clean Code", pc: {r: 70, t: 120}, movement: "c"},
+					{name: "MOB Programming", pc: {r: 80, t: 150}, movement: "c"},
+					{name: "TDD", pc: {r: 90, t: 160}, movement: "c"},
 
-          {name: "Code Reviews", pc: {r: 110, t: 110}, movement: "c"},
-          {name: "Evolutionary architecture", pc: {r: 120, t: 95}, movement: "c"},
-          {name: "Clean Code", pc: {r: 130, t: 120}, movement: "c"},
-          {name: "Zookeeper for App Config", pc: {r: 130, t: 130}, movement: "c"},
-          {name: "Edge Services", pc: {r: 130, t: 160}, movement: "c"},
-          {name: "Property based testing", pc: {r: 130, t: 165}, movement: "c"},
-          {name: "Data Informed Decion Making", pc: {r: 130, t: 110}, movement: "c"},
-          {name: "Valuable, cheap tests", pc: {r: 130, t: 150}, movement: "c"},
-          {name: "Pair Programming", pc: {r: 130, t: 170}, movement: "c"},
-          {name: "Single Page App", pc: {r: 150, t: 95}, movement: "c", "url": "http://www.google.com"},
-          {name: "SaaS for non-core systems", pc: {r: 170, t: 150}, movement: "c"},
-          {name: "iOS Accessibility", pc: {r: 170, t: 110}, movement: "c"},
-          {name: "iOS Adaptivity", pc: {r: 180, t: 105}, movement: "c"},
-          {name: "Build Pipelines", pc: {r: 180, t: 100}, movement: "c"},
-          {name: "Polygot Programming", pc: {r: 180, t: 170}, movement: "c"},
-          {name: 'internal load balancing off F5^', pc: {r: 180, t: 133}, movement: 'c'},
-          {name: "Isolated dev envs", pc: {r: 180, t: 125}, movement: "c"},
-          {name: "Wide and Thin Front-Ends", pc: {r: 180, t: 160}, movement: "c"},
+					//Experimente
+					{name: "Scrum", pc: {r: 110, t: 110}, movement: "t"},
+					{name: "DDD", pc: {r: 120, t: 100}, movement: "c"},
 
-          {name: "Events for messages - CQRS", pc: {r: 225, t: 120}, movement: "c"},
-          {name: "Continuous Experimentation", pc: {r: 230, t: 110}, movement: "c"},
-          {name: 'Git flow / Pull Requests ^', pc: {r: 230, t: 133}, movement: 'c'},
-          {name: "Incremental data warehousing", pc: {r: 250, t: 165}, movement: "c"},
-          {name: "Measure Pipeline disruptions", pc: {r: 280, t: 110}, movement: "c"},
-          {name: 'Reduce iRules dependence ^', pc: {r: 280, t: 133}, movement: 'c'}
+					{name: "Single Page App", pc: {r: 150, t: 95}, movement: "c", "url": "http://www.google.com"},
+
+					//Avalie
+					{name: "BDD", pc: {r: 225, t: 120}, movement: "c"},
+
+					//Evite
+					{name: "RUP", pc: {r: 390, t: 120}, movement: "c"}
         ]
     },
     {
