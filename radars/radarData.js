@@ -97,7 +97,6 @@ var radar_data = [
 
             {name: 'GWT', pc: {r: 330, t: 330}, movement: 'c'},
             {name: "PHP", pc: {r: 330, t: 290}, movement: "c"},
-            {name: "PHP", pc: {r: 340, t: 320}, movement: "c"},
             {name: "RichFaces", pc: {r: 350, t: 310}, movement: "c"},
             {name: "Angular 1", pc: {r: 350, t: 350}, movement: "c"}
         ]
