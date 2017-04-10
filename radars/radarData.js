@@ -107,44 +107,6 @@ var radar_data = [
         ]
     },
     {
-        quadrant: "Técnicas",
-        left: 45,
-        top: 18,
-        color: "#8FA227",
-        items: [
-            {name: "Sacrificial Architecture", pc: {r: 80, t: 100}, movement: "c"},
-            {name: "Sensible defaults", pc: {r: 80, t: 150}, movement: "c"},
-            {name: "Dependency Injection", pc: {r: 80, t: 130}, movement: "c"},
-            {name: "Coding architects", pc: {r: 90, t: 170}, movement: "c"},
-
-            {name: "Code Reviews", pc: {r: 110, t: 110}, movement: "c"},
-            {name: "Evolutionary architecture", pc: {r: 120, t: 95}, movement: "c"},
-            {name: "Clean Code", pc: {r: 130, t: 120}, movement: "c"},
-            {name: "Zookeeper for App Config", pc: {r: 130, t: 130}, movement: "c"},
-            {name: "Edge Services", pc: {r: 130, t: 160}, movement: "c"},
-            {name: "Property based testing", pc: {r: 130, t: 165}, movement: "c"},
-            {name: "Data Informed Decion Making", pc: {r: 130, t: 110}, movement: "c"},
-            {name: "Valuable, cheap tests", pc: {r: 130, t: 150}, movement: "c"},
-            {name: "Pair Programming", pc: {r: 130, t: 170}, movement: "c"},
-            {name: "Single Page App", pc: {r: 150, t: 95}, movement: "c", "url": "http://www.google.com"},
-            {name: "SaaS for non-core systems", pc: {r: 170, t: 150}, movement: "c"},
-            {name: "iOS Accessibility", pc: {r: 170, t: 110}, movement: "c"},
-            {name: "iOS Adaptivity", pc: {r: 180, t: 105}, movement: "c"},
-            {name: "Build Pipelines", pc: {r: 180, t: 100}, movement: "c"},
-            {name: "Polygot Programming", pc: {r: 180, t: 170}, movement: "c"},
-            {name: 'internal load balancing off F5^', pc: {r: 180, t: 133}, movement: 'c'},
-            {name: "Isolated dev envs", pc: {r: 180, t: 125}, movement: "c"},
-            {name: "Wide and Thin Front-Ends", pc: {r: 180, t: 160}, movement: "c"},
-
-            {name: "Events for messages - CQRS", pc: {r: 225, t: 120}, movement: "c"},
-            {name: "Continuous Experimentation", pc: {r: 230, t: 110}, movement: "c"},
-            {name: 'Git flow / Pull Requests ^', pc: {r: 230, t: 133}, movement: 'c'},
-            {name: "Incremental data warehousing", pc: {r: 250, t: 165}, movement: "c"},
-            {name: "Measure Pipeline disruptions", pc: {r: 280, t: 110}, movement: "c"},
-            {name: 'Reduce iRules dependence ^', pc: {r: 280, t: 133}, movement: 'c'}
-        ]
-    },
-    {
         quadrant: "Ferramentas",
         left: w - 200 + 30,
         top: 18,
@@ -189,38 +151,74 @@ var radar_data = [
         ]
     },
     {
-        quadrant: "Plataformas",
+        quadrant: "Técnicas",
+        left: 45,
+        top: 18,
+        color: "#8FA227",
+        items: [
+          {name: "Sacrificial Architecture", pc: {r: 80, t: 100}, movement: "c"},
+          {name: "Sensible defaults", pc: {r: 80, t: 150}, movement: "c"},
+          {name: "Dependency Injection", pc: {r: 80, t: 130}, movement: "c"},
+          {name: "Coding architects", pc: {r: 90, t: 170}, movement: "c"},
+
+          {name: "Code Reviews", pc: {r: 110, t: 110}, movement: "c"},
+          {name: "Evolutionary architecture", pc: {r: 120, t: 95}, movement: "c"},
+          {name: "Clean Code", pc: {r: 130, t: 120}, movement: "c"},
+          {name: "Zookeeper for App Config", pc: {r: 130, t: 130}, movement: "c"},
+          {name: "Edge Services", pc: {r: 130, t: 160}, movement: "c"},
+          {name: "Property based testing", pc: {r: 130, t: 165}, movement: "c"},
+          {name: "Data Informed Decion Making", pc: {r: 130, t: 110}, movement: "c"},
+          {name: "Valuable, cheap tests", pc: {r: 130, t: 150}, movement: "c"},
+          {name: "Pair Programming", pc: {r: 130, t: 170}, movement: "c"},
+          {name: "Single Page App", pc: {r: 150, t: 95}, movement: "c", "url": "http://www.google.com"},
+          {name: "SaaS for non-core systems", pc: {r: 170, t: 150}, movement: "c"},
+          {name: "iOS Accessibility", pc: {r: 170, t: 110}, movement: "c"},
+          {name: "iOS Adaptivity", pc: {r: 180, t: 105}, movement: "c"},
+          {name: "Build Pipelines", pc: {r: 180, t: 100}, movement: "c"},
+          {name: "Polygot Programming", pc: {r: 180, t: 170}, movement: "c"},
+          {name: 'internal load balancing off F5^', pc: {r: 180, t: 133}, movement: 'c'},
+          {name: "Isolated dev envs", pc: {r: 180, t: 125}, movement: "c"},
+          {name: "Wide and Thin Front-Ends", pc: {r: 180, t: 160}, movement: "c"},
+
+          {name: "Events for messages - CQRS", pc: {r: 225, t: 120}, movement: "c"},
+          {name: "Continuous Experimentation", pc: {r: 230, t: 110}, movement: "c"},
+          {name: 'Git flow / Pull Requests ^', pc: {r: 230, t: 133}, movement: 'c'},
+          {name: "Incremental data warehousing", pc: {r: 250, t: 165}, movement: "c"},
+          {name: "Measure Pipeline disruptions", pc: {r: 280, t: 110}, movement: "c"},
+          {name: 'Reduce iRules dependence ^', pc: {r: 280, t: 133}, movement: 'c'}
+        ]
+    },
+    {
+        quadrant: "Plataformas & Infra",
         left: 45,
         top: (h / 2 + 18),
         color: "#DC6F1D",
         items: [
-            {name: "Google Play - (alpha/beta builds)", pc: {r: 30, t: 225}, movement: "c"},
-            {name: 'BigIP v11', pc: {r: 50, t: 257}, movement: 'c'},
-            {name: "JVM as platform", pc: {r: 90, t: 265}, movement: "c"},
-            {name: "AWS", pc: {r: 90, t: 250}, movement: "c"},
+            //Adote
+            {name: "AWS", pc: {r: 5, t: 225}, movement: "c"},
+					  {name: "Bitbucket", pc: {r: 30, t: 190}, movement: "c"},
+					  {name: "Tomcat", pc: {r: 35, t: 230}, movement: "c"},
+					  {name: "Wildfly", pc: {r: 85, t: 225}, movement: "c"},
+					  {name: "Nginx", pc: {r: 50, t: 210}, movement: "c"},
+					  {name: "Apache (Web Server)", pc: {r: 60, t: 245}, movement: "c"},
 
-            {name: "OpenId Connect", pc: {r: 130, t: 260}, movement: "t"},
-            {name: "Location based services", pc: {r: 130, t: 230}, movement: "c"},
-            {name: "Openstack", pc: {r: 190, t: 190}, movement: "c"},
+					  //Experimente
+					  {name: "Galaxy", pc: {r: 120, t: 265}, movement: "c"},
 
-            {name: "RHEL 7", pc: {r: 170, t: 215}, movement: "c"},
-            {name: 'Postgres as NoSQL', pc: {r: 220, t: 255}, movement: 'c'},
-            {name: 'Marathon', pc: {r: 240, t: 268}, movement: 't'},
-            {name: "App containers", pc: {r: 250, t: 260}, movement: "c"},
-            {name: 'Mesos', pc: {r: 260, t: 265}, movement: 't'},
-            {name: "AWS 2014 Innovations", pc: {r: 270, t: 195}, movement: "c"},
-            {name: 'Kubernetes', pc: {r: 270, t: 236}, movement: 't'},
-            {name: "Google Cloud Data Flow", pc: {r: 275, t: 260}, movement: "t"},
-            {name: "Azure", pc: {r: 290, t: 265}, movement: "c"},
-            {name: "Google App Engine", pc: {r: 290, t: 255}, movement: "c"},
-            {name: "Google as corporate platform", pc: {r: 290, t: 200}, movement: "c"},
+					  //Avalie
+            {name: "Wordpress", pc: {r: 230, t: 230}, movement: "t"},
+            {name: 'Docker', pc: {r: 240, t: 268}, movement: 'c'},
+					  {name: 'Firebase', pc: {r: 250, t: 257}, movement: 'c'},
+            {name: 'OpenShift', pc: {r: 260, t: 268}, movement: 'c'},
+            {name: 'Heroku', pc: {r: 280, t: 250}, movement: "c"},
+            {name: 'GitLab', pc: {r: 290, t: 255}, movement: 'c'},
 
-            {name: "RHEL 5", pc: {r: 370, t: 195}, movement: "c"},
-            {name: "Ruby On Rails", pc: {r: 390, t: 215}, movement: "c"},
-            {name: "Everest", pc: {r: 390, t: 185}, movement: "c"},
-            {name: "Magnolia CMS", pc: {r: 390, t: 235}, movement: "c"},
-            {name: "Java EE - the Bad Parts", pc: {r: 390, t: 245}, movement: "c"},
-            {name: "MS SqlServer", pc: {r: 390, t: 190}, movement: "c"}
+            //Evite
+					  {name: "Parse", pc: {r: 399, t: 260}, movement: "c"}
         ]
     }
 ];
+// {r: 100, name: "Adote"}, Adopt
+// {r: 200, name: "Experimente"}, Trial
+// {r: 300, name: "Avalie"}, Assess
+// {r: 400, name: "Evite"} Hold
