@@ -209,7 +209,7 @@ var radar_data = [
             {name: "Wordpress", pc: {r: 230, t: 230}, movement: "t"},
             {name: 'Docker', pc: {r: 240, t: 268}, movement: 'c'},
 					  {name: 'Firebase', pc: {r: 250, t: 257}, movement: 'c'},
-            {name: 'OpenShift', pc: {r: 260, t: 268}, movement: 'c'},
+            {name: 'OpenShift', pc: {r: 260, t: 268}, movement: 't'},
             {name: 'Heroku', pc: {r: 280, t: 250}, movement: "c"},
             {name: 'GitLab', pc: {r: 290, t: 255}, movement: 'c'},
 
