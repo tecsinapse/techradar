@@ -168,22 +168,31 @@ var radar_data = [
         top: (h / 2 + 18),
         color: "#DC6F1D",
         items: [
+            //Adote
             {name: "AWS", pc: {r: 5, t: 225}, movement: "c"},
 					  {name: "Bitbucket", pc: {r: 30, t: 190}, movement: "c"},
 					  {name: "Tomcat", pc: {r: 35, t: 225}, movement: "c"},
 					  {name: "Wildfly", pc: {r: 85, t: 225}, movement: "c"},
-					  {name: "Nginx", pc: {r: 60, t: 215}, movement: "c"},
-					  {name: "Apache (Web Server)", pc: {r: 120, t: 215}, movement: "c"},
-					  {name: "Galaxy", pc: {r: 180, t: 265}, movement: "c"},
+					  {name: "Nginx", pc: {r: 50, t: 215}, movement: "c"},
+					  {name: "Apache (Web Server)", pc: {r: 60, t: 215}, movement: "c"},
 
-					  {name: 'Docker', pc: {r: 260, t: 268}, movement: 't'},
-					  {name: 'OpenShift', pc: {r: 280, t: 268}, movement: 't'},
+					  //Experimente
+					  {name: "Galaxy", pc: {r: 120, t: 265}, movement: "c"},
 
-            {name: 'Heroku', pc: {r: 320, t: 257}, movement: 'c'},
-            {name: "Firebase", pc: {r: 320, t: 250}, movement: "c"},
-            {name: "Wordpress", pc: {r: 300, t: 230}, movement: "c"},
-            {name: 'GitLab', pc: {r: 300, t: 255}, movement: 'c'},
-					  {name: "Parse", pc: {r: 400, t: 260}, movement: "t"}
+					  //Avalie
+            {name: "Wordpress", pc: {r: 230, t: 230}, movement: "t"},
+            {name: 'Docker', pc: {r: 240, t: 268}, movement: 'c'},
+					  {name: 'Heroku', pc: {r: 250, t: 257}, movement: 'c'},
+            {name: 'OpenShift', pc: {r: 260, t: 268}, movement: 'c'},
+            {name: "Firebase", pc: {r: 280, t: 250}, movement: "c"},
+            {name: 'GitLab', pc: {r: 290, t: 255}, movement: 'c'},
+
+            //Evite
+					  {name: "Parse", pc: {r: 399, t: 260}, movement: "c"}
         ]
     }
 ];
+// {r: 100, name: "Adote"}, Adopt
+// {r: 200, name: "Experimente"}, Trial
+// {r: 300, name: "Avalie"}, Assess
+// {r: 400, name: "Evite"} Hold
