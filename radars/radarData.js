@@ -75,8 +75,9 @@ var radar_data = [
             {name: "ECMAScript 6", pc: {r: 130, t: 310}, movement: "c"},
             {name: "Spring MVC", pc: {r: 140, t: 330}, movement: "c"},
             {name: "Spring Data", pc: {r: 140, t: 345}, movement: "c"},
-            {name: "Framework 7", pc: {r: 155, t: 340}, movement: "c"},
+            {name: "PHP", pc: {r: 150, t: 300}, movement: "c"},
             {name: "TypeScript", pc: {r: 150, t: 320}, movement: "c"},
+            {name: "Framework 7", pc: {r: 155, t: 340}, movement: "c"},
             {name: "Primefaces", pc: {r: 160, t: 280}, movement: "c"},
             {name: "Node JS", pc: {r: 170, t: 290}, movement: "c"},
             {name: "Material Prime", pc: {r: 170, t: 350}, movement: "c"},
@@ -96,7 +97,6 @@ var radar_data = [
             {name: "Semantic UI", pc: {r: 280, t: 320}, movement: "c"},
 
             {name: 'GWT', pc: {r: 330, t: 330}, movement: 'c'},
-            {name: "PHP", pc: {r: 330, t: 290}, movement: "c"},
             {name: "RichFaces", pc: {r: 350, t: 310}, movement: "c"},
             {name: "Angular 1", pc: {r: 350, t: 350}, movement: "c"}
         ]
