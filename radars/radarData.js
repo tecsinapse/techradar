@@ -129,7 +129,6 @@ var radar_data = [
             {name: 'Visual Studio Code', pc: {r: 170, t: 80}, movement: 'c'},
 
             //Avalie
-            {name: 'Grafana', pc: {r: 220, t: 60}, movement: 'c'},
             {name: 'NetBeans', pc: {r: 220, t: 30}, movement: 'c'},
             {name: 'Meteor Dev Tools', pc: {r: 230, t: 80}, movement: 'c'},
             {name: 'RoboMongo', pc: {r: 240, t: 10}, movement: 'c'},
@@ -183,6 +182,8 @@ var radar_data = [
             {name: "Wildfly", pc: {r: 60, t: 215}, movement: "c"},
             {name: "Nginx", pc: {r: 80, t: 210}, movement: "c"},
             {name: "Apache (Web Server)", pc: {r: 80, t: 245}, movement: "c"},
+            {name: 'Zabbix', pc: {r: 80, t: 260}, movement: 'c'},
+            {name: 'Grafana', pc: {r: 90, t: 260}, movement: 'c'},
 
             //Experimente
             {name: "Galaxy", pc: {r: 120, t: 220}, movement: "c"},
